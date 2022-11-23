@@ -62,7 +62,7 @@ public class Compiler {
                 current++;
                 continue;
             }
-            if (ch.isBlank()) {
+            if (ch.equals(" ")) {
                 current++;
                 continue;
             }
